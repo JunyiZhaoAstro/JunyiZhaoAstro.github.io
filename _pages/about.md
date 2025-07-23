@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I am Junyi"
+title: "Hey there, I am Junyi"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Hey there—welcome to my little space.
+# Welcome to my little space.
 
-I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor.
+I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor. 🌌🏔️
 
 ## Research Interests
 - Debris Disks
@@ -18,7 +18,7 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 - Exoplanet Detection and Characterization
 - Icy Moons
 
-[Click here](https://yanbopanpi.github.io/yanbo_pan.github.io//publications/) to learn more about my research.
+[Click here](https://wuhu224.github.io//wuhu224.github.io///publications/) to learn more about my research.
 
 ## About Me
 
