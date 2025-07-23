@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome!
+# Hey there—welcome to my little space.
 
-I hope you are doing well ! I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor.
+I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor.
 
 ## Research Interests
-- Observational Near-Field Cosmology
-- Ultra-faint Dwarf Galaxies
-- Hot Jupiter Atmospheric Characterization
-- Statistical and Computational Applications on Astrophysics
+- Debris Disks
+- High‑Contrast Imaging
+- Exoplanet Detection and Characterization
+- Icy Moons
 
 [Click here](https://yanbopanpi.github.io/yanbo_pan.github.io//publications/) to learn more about my research.
 
