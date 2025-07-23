@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I am Yanbo ;)"
+title: "Hello, I am Junyi"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to My Website
+# Welcome!
 
-Greetings! I'm Yanbo Pan, an undergraduate student studying Astrophysics and Statistics at the University of Michigan - Ann Arbor. 🌌⭐🪐
+I hope you are doing well ! I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor.
 
 ## Research Interests
 - Observational Near-Field Cosmology
