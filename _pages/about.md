@@ -26,4 +26,4 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 
 Hello. I am originally from Beijing, the ancient and vibrant capital of China. I began my academic journey at the University of California, Santa Barbara, where I studied International Relations before discovering that my true passion lay elsewhere. I subsequently transferred to the University of Michigan to pursue degrees in Astronomy and Earth Science. 
 
-When I am not tackling differential equations or refining Python code, I enjoy feeding campus squirrels, performing chamber music on the violin, and exploring local trails on my touring bicycle.
+When I am not tackling differential equations or refining Python code, I enjoy befriending campus squirrels, performing chamber music on the violin, and exploring local trails on my touring bicycle.
