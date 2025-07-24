@@ -18,17 +18,10 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 - Exoplanet Detection and Characterization
 - Icy Moons
 
-[Click here](https://wuhu224.github.io//wuhu224.github.io///publications/) to learn more about my research.
+[Click here](https://wuhu224.github.io//wuhu224.github.io//publications/) to learn more about my research.
 
 ## About Me
 
 ![Running Picture](https://yanbopanpi.github.io/yanbo_pan.github.io//images/marathon.jpg){: .align-right width="320px"}
 
-I am from [Ningbo](https://en.wikipedia.org/wiki/Ningbo), a vibrant coastal city in southeastern China. My academic path began at the University of Wisconsin-Madison 🦡, where I spent my first year studying along the picturesque shores of [Lake Mendota](https://lakeshorepreserve.wisc.edu/visit/places/lake-mendota/). I liked the weather so much that I transferred to the University of Michigan - Ann Arbor ☃️ to complete my undergraduate studies.
-
-Outside of academics and research, I enjoy:
-- Distance running 🏃‍♂️
-- Playing table tennis 🏓
-- Kayaking on the Huron River 🚣‍♂️
-
-When the weather is pleasant, you’ll often find me running through [the Arb](https://mbgna.umich.edu/nichols-arboretum/) after classes. I also love visiting the [State Theatre](https://michtheater.org/) to enjoy movies and shows with friends.
+Hello. I am originally from Beijing, the ancient and vibrant capital of China. I began my academic journey at the University of California, Santa Barbara, where I studied International Relations before discovering that my true passion lay elsewhere. I subsequently transferred to the University of Michigan to pursue degrees in Astronomy and Earth Science. When I am not tackling differential equations or refining Python code, I enjoy feeding campus squirrels, performing chamber music on the violin, and exploring local trails on my touring bicycle.
