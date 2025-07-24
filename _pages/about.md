@@ -22,7 +22,7 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 
 ## About Me
 
-![Running Picture](https://yanbopanpi.github.io/yanbo_pan.github.io//images/marathon.jpg){: .align-right width="320px"}
+![Running Picture](https://wuhu224.github.io//wuhu224.github.io//images/Frount_Page.jpg){: .align-right width="320px"}
 
 Hello. I am originally from Beijing, the ancient and vibrant capital of China. I began my academic journey at the University of California, Santa Barbara, where I studied International Relations before discovering that my true passion lay elsewhere. I subsequently transferred to the University of Michigan to pursue degrees in Astronomy and Earth Science. 
 
