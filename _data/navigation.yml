@@ -24,10 +24,7 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
+    url: /files/Junyi Zhao_CV_2025May12.pdf
     
   - title: "Guide"
     url: /markdown/
