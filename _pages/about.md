@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to my little space.
+# Welcome!
 
 I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor. 🌌🏔️
 
-## Research Interests
+## **Research Interests**
 - Debris Disks
 - High‑Contrast Imaging
 - Exoplanet Detection and Characterization
@@ -20,7 +20,7 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 
 [Click here](https://wuhu224.github.io//wuhu224.github.io//publications/) to learn more about my research.
 
-## About Me
+## **About Me**
 
 ![Front page picture](/images/Frount_Page.jpg){: .align-right width="320px"}
 
