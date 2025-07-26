@@ -18,18 +18,14 @@ Below are the details of my research projects, if you are interested, please don
 
 
 
-## Hot Jupiter multi-dimensional atmospheric modeling 🪐
-### Advisor: [Ryan MacDonald](https://distantworlds.space/)
-### 01/2024 - Present
+# **Identification and Kinematics of OBe stars in the LMC**
+## Advisor: [Sally Oey](https://sites.lsa.umich.edu/msoey/)
+## 02/2023 - 05/2024
 
-<!---
-We observed the hot Jupiter WASP-52b with JWST as part of a Cycle 2 Program aiming to measure differences between the east and west limbs of the planet. We analyzed the chemical composition, temperature, and cloud properties on each side of the planet. The science goals of this project are:
-1. Measure the chemical composition of WASP-52b’s atmosphere using a Bayesian atmospheric retrieval code.
-2. Identify whether a 2D atmospheric model is preferred over a 1D model, and if so, quantify differences between the morning and evening terminators (west and east). 
-3. Investigate and correct for the influence of unocculted starspots on WASP-52b’s JWST transmission spectrum. 
--->
+In our research, we tested the traditional approach of identifying OBe star candidates by using Hα-continuum subtracted images. Specifically, we compared the candidates detected through this method in the Large Magellanic Cloud (LMC) with known OBe stars listed in an established catalog. To do this, we extracted star-shaped objects from the Hα-continuum subtracted images and then evaluated how this group matched up with the cataloged OBe stars in the same region of the LMC. we find that this method results in false positives and is thus insufficient in identifying OBe stars.
+We also measure the proper motions of OBe stars within the LMC using data from Gaia DR3. We then combine these findings with the proper motion characteristics of OBe stars in the Small Magellanic Cloud (SMC) region. We find that the velocity distributions of OBe stars in the LMC and the SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
 
-Unocculted stellar contamination (starspots or faculae) can strongly influence exoplanet transmission spectroscopy. Therefore, incorporating these stellar active regions into atmospheric retrieval algorithms is crucial for reliably inferring exoplanet atmosphere properties. We recently observed a hot Jupiter orbiting a highly active star, WASP-52b, with JWST to directly test methods to disentangle stellar inhomogeneities from planetary atmospheric features. We analyzed the full optical to near-infrared (0.6-5.2 μm) transmission spectrum of WASP-52b from two JWST transits, one with NIRISS/SOSS and one with NIRSpec G395H. Since our WASP-52b transmission spectra are strongly sculpted by both occulted starspot crossing events during the transit and unocculted active regions, we incorporate starspots and faculae into our retrieval analysis. I will present our detailed constraints on the chemical inventory and aerosol properties of WASP-52b’s atmosphere, demonstrating strategies to overcome stellar contamination of transmission spectra. 
+### 
 
 
 ## Kinematics of ultra-faint dwarf galaxies 🌌
