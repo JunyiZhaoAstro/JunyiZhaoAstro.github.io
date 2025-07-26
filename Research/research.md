@@ -8,16 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to My Research Website! 👋
+# Welcome to My Research Website! 
 
-During my undergraduate career, I have participated in research projects spanning from characterizing the atmospheres of Hot Jupiters to mining and analyzing some of the faintest galaxies. Thanks to these experiences, I have worked with diverse datasets, such as [DELVE](https://datalab.noirlab.edu/delve/), [WOCS](https://www.astro.wisc.edu/research/research-areas/stars-stellar-systems/wocs/), and [JWST NIRISS and NIRSpec Transmission Spectrum](https://www.stsci.edu/jwst/phase2-public/3969.pdf). Along the way, I also learned some useful statistical tools for astrophysics, like:
-- [Unsupervised clustering](https://scikit-learn.org/stable/modules/clustering.html#clustering)
-- [Rejection sampling](https://thejoker.readthedocs.io/en/latest/index.html)
-- [Atmospheric retrievals with nested sampling](https://poseidon-retrievals.readthedocs.io/en/latest/index.html#)
+During my undergraduate studies, I worked on a diverse set of research projects—from searching for giant, mysterious emission-line stars to recovering debris-disk parameters with joint modeling though multiple wavelengths. I’ve handled data from facilities including [JWST/NIRCam](https://jwst-docs.stsci.edu/jwst-near-infrared-camera#gsc.tab=0), [ALMA](https://www.almaobservatory.org/en/home/), the [CHARA Array](https://www.chara.gsu.edu/public/tour-overview), [and CTIO’s Curtis/Schmidt Telescope](https://noirlab.edu/public/programs/ctio/curtis-schmidt-telescope/).
 
-I look forward to continuing my research journey in graduate school. I enjoy applying modern statistical methods to answer astrophysical problems. My current work spans ultra-faint dwarf galaxies (UFDs), binary orbits, and Hot Jupiters. However, I would love to explore more astronomical fields, like gravitational lensing, ISM, and beyond. 
+The discovery and characterization of alien worlds have always captivated me: from the structure of gas in protoplanetary disks, to the atmospheric composition of super-Earths, to detecting exoplanets from their faintest signals. I’m eager to explore entire exosystems across the full electromagnetic spectrum, seeking to understand how multiple components within the alien worlds (host star, gas, planets and their atmospheres) interact and shape each other. To me, probing these distant worlds is not only an exhilarating scientific journey but also a way to understand our place in the cosmos and tackle the biggest questions: Are we alone? How did planetary systems like our own assemble and evolve?
 
-If you are interested in learning more about my research or simply chatting about science in general, please don't hesitate to email me at **panpi@umich.edu**.  I would love to chat!
+Below are the details of my research projects, if you are interested, please don't hesitate to email me at **junyzhao@umich.edu**.  I would love to chat!
+
 
 
 ## Hot Jupiter multi-dimensional atmospheric modeling 🪐
