@@ -16,16 +16,27 @@ The discovery and characterization of alien worlds have always captivated me: fr
 
 Below are the details of my research projects, if you are interested, please don't hesitate to email me at **junyzhao@umich.edu**.  I would love to chat!
 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 # **Identification and Kinematics of OBe stars in the LMC**
 ## Advisor: [Sally Oey](https://sites.lsa.umich.edu/msoey/)
 ## 02/2023 - 05/2024
 
+
 In our research, we tested the traditional approach of identifying OBe star candidates by using Hα-continuum subtracted images. Specifically, we compared the candidates detected through this method in the Large Magellanic Cloud (LMC) with known OBe stars listed in an established catalog. To do this, we extracted star-shaped objects from the Hα-continuum subtracted images and then evaluated how this group matched up with the cataloged OBe stars in the same region of the LMC. we find that this method results in false positives and is thus insufficient in identifying OBe stars.
 We also measure the proper motions of OBe stars within the LMC using data from Gaia DR3. We then combine these findings with the proper motion characteristics of OBe stars in the Small Magellanic Cloud (SMC) region. We find that the velocity distributions of OBe stars in the LMC and the SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
 
-### 
+### How to find OBe stars
+The conventional method of identifying OBe stars results in a high number of false positives because OBe stars are not the only objects that appear on a cont-sub Hα image. Other celestial bodies, such as planetary nebulae and red giants, also appear on these images, leading to misidentification. To address this issue, we analyzed the objects across different spectral bands and discovered that OBe stars typically exhibit a bluer g-r index compared to other objects, as indicated in Fig on the right
+![BSS_HR](https://yanbopanpi.github.io/yanbo_pan.github.io//images/BSS_HR.png){: style="width: 50%; max-width: 450px; height: auto; float: right;"}
+
+### How to find OBe stars
+
+
+
+
 
 
 ## Kinematics of ultra-faint dwarf galaxies 🌌
