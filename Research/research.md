@@ -28,13 +28,13 @@ In our research, we tested the traditional approach of identifying OBe star cand
 We also measure the proper motions of OBe stars within the LMC using data from Gaia DR3. We then combine these findings with the proper motion characteristics of OBe stars in the Small Magellanic Cloud (SMC) region. We find that the velocity distributions of OBe stars in the LMC and the SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
 
 ### How to find OBe stars
-![BSS_HR](https://wuhu224.github.io//images/OBe_star.png){: style="width: 50%; max-width: 450px; height: auto; float: right;"}
+![BSS_HR](https://wuhu224.github.io//images/OBe_star.png){: style="width: 50%; max-width: 500px; height: auto; float: right;"}
 The conventional method of identifying OBe stars results in a high number of false positives because OBe stars are not the only objects that appear on a cont-sub Hα image. Other celestial bodies, such as planetary nebulae and red giants, also appear on these images, leading to misidentification. To address this issue, we analyzed the objects across different spectral bands and discovered that OBe stars typically exhibit a bluer g-r index compared to other objects, as indicated in Fig on the right
 
 <div style="clear: both;"></div>
 
 ### The velocity distribution of OBe stars
-![BSS_HR](https://wuhu224.github.io//images/OBe_star_speed.png){: style="width: 50%; max-width: 450px; height: auto; float: right;"}
+![BSS_HR](https://wuhu224.github.io//images/OBe_star_speed.png){: style="width: 50%; max-width: 500px; height: auto; float: right;"}
 The velocity of OBe stars is a critical area of study since it can reveal probe cluster dynamical evolution, binary population parameters, and stellar evolution. We obtained the velocities of the OBe stars from the Reid & Parker catalog using the Gaia DR3 data. The field transverse velocity of the OBe stars is obtained through the median of the velocity of the stars within a 3-arcsec radius of the OBe stars. We discovered that the velocity distributions of OBe stars in LMC and SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
 
 <div style="clear: both;"></div>
