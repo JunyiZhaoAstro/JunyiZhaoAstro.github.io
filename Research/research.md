@@ -51,7 +51,7 @@ The velocity of OBe stars is a critical area of study since it can reveal probe 
 MWC 758 is a Herbig Ae star surrounded by a protoplanetary disk with a proposed attenuation protoplanet candidate, MWC 758c. We conducted high-contrast imaging observations with JWST/NIRCam in the F200W band, applying four PSF-subtraction techniques: PCA-based angular differential imaging (ADI), PCA with reference angles, roll-subtraction, and reference differential imaging (RDI). None of these methods revealed a companion at the predicted 0.62″ separation. The PCA-ADI contrast curve (PCA = 2) achieves a planet-to-star flux ratio sensitivity of ≲10⁻⁵ at that separation, placing stringent non-detection limits on MWC 758c. Future work will explore additional subtraction parameters and analyze data from the F430 filter.
 
 ### Direct imaging results
-![BSS_HR](https://wuhu224.github.io//images/OBe_star_speed.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
+![BSS_HR](https://wuhu224.github.io//images/F200W_direct.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
 We use JWST/NIRCam filter F200W (centers at 2 microns) and run 4 different methods of PSF subtraction. Principal component analysis (PCA) analyzes the stack of stellar PSFs to pull out their common patterns, builds a PSF“template” from those patterns, and subtracts it so that only non‑stellar signals (like a rotating planet) remain. We can observe the disk structure of the system in the RDI subtraction method. For the results, **We do not detect MWC758c from the JWST/NIRCam F200 band** Future work includes calculating contrast for the other methods and analyzing data from the F430 filter. 
 
 
