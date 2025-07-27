@@ -20,7 +20,7 @@ Below are the details of my research projects, if you are interested, please don
 <p>&nbsp;</p>
 
 # **Identification and Kinematics of OBe stars in the LMC**
-## Advisor: [Sally Oey](https://sites.lsa.umich.edu/msoey/)
+## Advisor: [Prof.Sally Oey](https://sites.lsa.umich.edu/msoey/)
 ## 02/2023 - 05/2024
 
 
@@ -40,21 +40,35 @@ The velocity of OBe stars is a critical area of study since it can reveal probe 
 <div style="clear: both;"></div>
 
 
+<p>&nbsp;</p>
 
 
 
+# Searching for protoplanets orbiting MWC 758 using JWST/NIRCam
+## Advisor: [Prof.Michael Meyer](https://sites.lsa.umich.edu/feps/)
+## 05/2024 - 08/2024
 
-## Kinematics of ultra-faint dwarf galaxies 🌌
-### Advisor: [Marla Geha](http://www.astro.yale.edu/mgeha/)
-### 05/2024 - 08/2024
-Ultra-faint dwarf (UFD) satellite galaxies are believed to have the oldest, most dark-matter dominated, and least chemically evolved stellar populations (Simon 2019). Therefore, UFDs serve as effective cosmological probes for the early Universe and are pristine laboratories for dark matter physics. In this study, we analyze resolved stars of two Milky Way satellite galaxies, Pegasus 3 and Pegasus 4, to provide more precise and accurate measurements of their velocity dispersion, dynamical masses, and mass to light ratios compared to previous studies (Cerny et al. 2023a; Kim et al. 2016). We first select member stars within these two galaxies using radial velocity, proper motion, equivalent width, and color & magnitude measurements. With these selected member stars’ radial velocity measurements, we apply a customized MCMC procedure to fit for their systematic velocity and velocity dispersion, which gives us their dynamical mass estimates (Walker et al. 2006; Wolf et al. 2010; Foreman-Mackey et al. 2013). We reconfirm and conclude these two systems are dark matter dominated dwarf galaxies by comparing them with other similarly faint stellar systems. This work offers us more accurate dynamical mass estimates of Peg 3 & 4 with more spectroscopically selected member stars.
+MWC 758 is a Herbig Ae star surrounded by a protoplanetary disk with a proposed attenuation protoplanet candidate, MWC 758c. We conducted high-contrast imaging observations with JWST/NIRCam in the F200W band, applying four PSF-subtraction techniques: PCA-based angular differential imaging (ADI), PCA with reference angles, roll-subtraction, and reference differential imaging (RDI). None of these methods revealed a companion at the predicted 0.62″ separation. The PCA-ADI contrast curve (PCA = 2) achieves a planet-to-star flux ratio sensitivity of ≲10⁻⁵ at that separation, placing stringent non-detection limits on MWC 758c. Future work will explore additional subtraction parameters and analyze data from the F430 filter.
+
+### Direct imaging results
+![BSS_HR](https://wuhu224.github.io//images/OBe_star_speed.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
+We use JWST/NIRCam filter F200W (centers at 2 microns) and run 4 different methods of PSF subtraction. Principal component analysis (PCA) analyzes the stack of stellar PSFs to pull out their common patterns, builds a PSF“template” from those patterns, and subtracts it so that only non‑stellar signals (like a rotating planet) remain. We can observe the disk structure of the system in the RDI subtraction method. For the results, **We do not detect MWC758c from the JWST/NIRCam F200 band** Future work includes calculating contrast for the other methods and analyzing data from the F430 filter. 
+
+
+
+<div style="clear: both;"></div>
+
+
+<p>&nbsp;</p>
+
+
 
 
 
 
 ## Alternative evolutionary pathway for stellar population by orbit modeling ⭐
 ### Advisor: [Robert Mathieu](https://www.astro.wisc.edu/?uw_staff=mathieu-robert)
-### Started 05/2023 - 06/2024
+### Started 07/2024 - Now
 ### [Astrobites](https://astrobites.org/2024/07/03/ur-blue-stars-that-should-not-exist/)
 ![BSS_HR](https://yanbopanpi.github.io/yanbo_pan.github.io//images/BSS_HR.png){: style="width: 50%; max-width: 450px; height: auto; float: right;"}
 Blue Straggler Stars (BSS) are believed to have originated from binary star interactions. Therefore, modeling binary orbits is crucial for understanding their formation and evolution. In this study, we applied The Joker (a Monte Carlo rejection sampler) to model binary orbits in the WIYN Open Cluster Survey (WOCS). Our objective was to evaluate The Joker’s efficacy on binaries with ample radial-velocity data (RVD). Exploring the potential usage of The Joker, designed for sparsely measured radial velocities, we applied it to known single-lined binary orbits in M67 and NGC 188. With 70+ binary systems, we compared our Joker orbital parameters among binaries having a diverse array of period-eccentricity combinations (Geller et al. 2021). We found that 5-7 RVD start to meaningfully constrain orbital parameters, and 8-10 RVD are required for unimodal period solutions with eccentricities converging to previous studies’ solutions. Additionally, we explored the possibility of devising observing plans having limited prior measurements with The Joker predicting possible periastron approach times to constrain eccentricity. This work enables us to estimate binary orbital solutions with fewer RVD and to enhance our understanding of the alternative evolutionary tracks of binary systems.
