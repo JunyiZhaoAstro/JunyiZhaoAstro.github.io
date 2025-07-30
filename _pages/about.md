@@ -18,7 +18,7 @@ I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Ast
 - Exoplanet Detection and Characterization
 - Icy Moons
 
-[Click here](https://wuhu224.github.io//wuhu224.github.io//publications/) to learn more about my research.
+[Click here](https://junyizhaoastro.github.io//junyizhaoastro.github.io//Research/) to learn more about my research.
 
 ## **About Me**
 
