@@ -5,8 +5,6 @@ permalink: /Research/
 author_profile: true
 ---
 
-# Research
-
 My research spans **planetary science and astrophysics**, with a common emphasis on extracting physical information from complex observational data. I am particularly interested in combining remote sensing, image analysis, statistical inference, and numerical modeling to understand how planetary surfaces and circumstellar systems form and evolve.
 
 My current work is centered on **lunar science**, while I remain actively involved in astrophysical research using facilities including **JWST** and **ALMA**.
