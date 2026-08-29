@@ -145,7 +145,7 @@ author_profile: true
       <div class="talk-card__content">
         <span class="talk-card__type">{{ post.type }}</span>
         <h3 class="talk-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="talk-card__meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.venue }} · {{ post.location }}</p>
+        <p class="talk-card__meta">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %} · {{ post.venue }} · {{ post.location }}</p>
         <p class="talk-card__summary">{{ post.summary }}</p>
         <p class="talk-card__actions">
           <a class="talk-card__button" href="{{ post.url | relative_url }}">Details</a>
@@ -177,7 +177,7 @@ author_profile: true
       <div class="talk-card__content">
         <span class="talk-card__type">{{ post.type }}</span>
         <h3 class="talk-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="talk-card__meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.venue }} · {{ post.location }}</p>
+        <p class="talk-card__meta">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %} · {{ post.venue }} · {{ post.location }}</p>
         <p class="talk-card__summary">{{ post.summary }}</p>
         <p class="talk-card__actions">
           <a class="talk-card__button" href="{{ post.url | relative_url }}">Details</a>

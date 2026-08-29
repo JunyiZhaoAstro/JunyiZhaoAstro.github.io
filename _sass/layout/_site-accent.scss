@@ -1,0 +1,31 @@
+/* ==========================================================================
+   SITE ATMOSPHERE
+   A restrained lunar-and-night-sky background for the light theme.
+   ========================================================================== */
+
+body {
+  background-color: #f5f8fc;
+  background-image:
+    radial-gradient(circle at 86% 15%, rgba(255, 255, 255, 0.9) 0 7rem, rgba(91, 116, 148, 0.08) 7.15rem 7.28rem, transparent 7.45rem),
+    radial-gradient(circle at 18% 26%, rgba(46, 79, 118, 0.055) 0 1px, transparent 1.35px),
+    radial-gradient(circle at 65% 72%, rgba(46, 79, 118, 0.045) 0 1px, transparent 1.3px),
+    linear-gradient(145deg, #fbfcfe 0%, #f2f6fa 58%, #f9fbfd 100%);
+  background-size: auto, 148px 148px, 193px 193px, auto;
+  background-attachment: fixed;
+}
+
+.masthead {
+  background: rgba(250, 252, 255, 0.93);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.masthead__menu-item {
+  background-color: transparent;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+}
