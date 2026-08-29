@@ -3,27 +3,43 @@ permalink: /
 title: "Hey there, I am Junyi"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-# Welcome!
+# Hey there, I am Junyi
 
-I hope you are doing well. I'm Junyi Zhao, an undergraduate student studying Astronomy and Earth sciecne at the University of Michigan - Ann Arbor. 🌌🏔️
+Welcome! I am **Junyi Zhao**, a Ph.D. student in **Earth and Planetary Sciences at The University of Hong Kong**, working with **Dr. Yuqi Qian**.
 
-## **Research Interests**
-- Debris Disks
-- High‑Contrast Imaging
-- Exoplanet Detection and Characterization
-- Icy Moons
+My current research focuses on **lunar and planetary science**, especially impact cratering, lunar surface processes, polar geology, planetary remote sensing, and quantitative approaches to understanding planetary surfaces. I am particularly interested in combining geological observations with numerical modeling and computational methods to investigate the physical processes that shape the Moon and other planetary bodies.
 
-[Click here](https://junyizhaoastro.github.io//junyizhaoastro.github.io//Research/) to learn more about my research.
+I also have a broad research background in **astrophysics**. My previous and ongoing work includes debris disks, high-contrast imaging, exoplanet detection, massive stars, and multi-wavelength astronomical data analysis. Across both planetary science and astrophysics, I am especially interested in problems that connect observations with quantitative modeling and computation.
 
-## **About Me**
+## Research Interests
 
-![Front page picture](/images/Frount_Page.jpg){: .align-right width="320px"}
+### Planetary Science
 
-Hello. I am originally from Beijing, the ancient and vibrant capital of China. I began my academic journey at the University of California, Santa Barbara, where I studied International Relations before discovering that my true passion lay elsewhere. I subsequently transferred to the University of Michigan to pursue degrees in Astronomy and Earth Science. 
+- Lunar science
+- Impact cratering and surface processes
+- Lunar polar geology
+- Planetary remote sensing
+- Numerical modeling and quantitative planetary science
 
-When I am not tackling differential equations or refining Python code, I enjoy befriending campus squirrels, performing chamber music on the violin, and exploring local trails on my touring bicycle.
+### Astrophysics
+
+- Debris disks and circumstellar environments
+- High-contrast imaging
+- Exoplanet detection and characterization
+- Multi-wavelength observations
+- Stellar populations and massive stars
+
+[Learn more about my research](/Research/)
+
+## About Me
+
+I am originally from Beijing, China. Before starting my Ph.D. at HKU, I completed my undergraduate studies at the **University of Michigan–Ann Arbor**, where I studied **Astronomy and Astrophysics, Earth and Environmental Sciences, and Interdisciplinary Physics**.
+
+My research experience has taken me across both astronomy and planetary science, from analyzing JWST and ALMA observations of circumstellar disks to studying stellar populations and high-contrast imaging, and now to investigating the geology and physical evolution of the Moon. This broad background has shaped my interest in using computational and quantitative methods across different areas of planetary and astrophysical science.
+
+Outside research, I enjoy playing the violin, cycling, and exploring new places.
