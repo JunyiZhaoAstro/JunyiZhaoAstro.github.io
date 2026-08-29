@@ -1,47 +1,74 @@
 ---
 permalink: /
-title: "Hey there, I am Junyi"
-excerpt: "About me"
-author_profile: true
+title: ""
+excerpt: "Junyi Zhao — lunar and planetary scientist at The University of Hong Kong"
+author_profile: false
+wide: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<figure style="margin: 0 0 2rem;">
-  <img src="/images/Frount_Page.jpg" alt="A collage featuring cycle touring, campus wildlife, and violin performance" style="display: block; width: 100%; max-width: 760px; height: auto; margin: 0 auto; border-radius: 10px;">
-</figure>
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__copy">
+      <p class="site-eyebrow">Earth &amp; Planetary Sciences · HKU</p>
+      <h1 id="home-title" class="home-title">Junyi Zhao</h1>
+      <p class="home-lede">I study the physical processes that shape the Moon and other planetary systems, using observations, remote sensing, and quantitative modeling.</p>
+      <p class="home-intro">I am a Ph.D. student at <strong>The University of Hong Kong</strong>, advised by <a href="https://yuqiqian.com/">Dr. Yuqi Qian</a>. My current work focuses on lunar surface processes, impact cratering, polar geology, and planetary remote sensing.</p>
+      <div class="site-actions" aria-label="Primary links">
+        <a class="site-button site-button--primary" href="/Research/">View research</a>
+        <a class="site-button" href="/files/Junyi_Zhao_CV.pdf">Curriculum vitae</a>
+        <a class="site-button" href="/zh/">中文简介</a>
+      </div>
+    </div>
+    <figure class="home-portrait">
+      <img src="/images/Head_sq.jpg" alt="Portrait of Junyi Zhao">
+      <figcaption>Hong Kong · Lunar and planetary science</figcaption>
+    </figure>
+  </section>
 
-Welcome! I am **Junyi Zhao**, a Ph.D. student in **Earth and Planetary Sciences at The University of Hong Kong**, working with **Dr. Yuqi Qian**.
+  <section class="home-section" aria-labelledby="research-focus">
+    <div class="home-section__label">
+      <p class="site-eyebrow">Research</p>
+      <h2 id="research-focus">What I work on</h2>
+    </div>
+    <div class="home-section__body">
+      <p class="home-section__lead">My work moves between planetary geology and observational astrophysics, connected by a common interest in extracting physical insight from complex data.</p>
+      <div class="focus-grid">
+        <article class="focus-item">
+          <span class="focus-item__number">01</span>
+          <h3>Lunar surfaces</h3>
+          <p>Impact cratering, polar geology, surface processes, and remote-sensing analysis of the Moon.</p>
+        </article>
+        <article class="focus-item">
+          <span class="focus-item__number">02</span>
+          <h3>Disk structure</h3>
+          <p>Joint JWST/NIRCam and ALMA modeling of the AU Mic debris disk across image and visibility space.</p>
+        </article>
+        <article class="focus-item">
+          <span class="focus-item__number">03</span>
+          <h3>Planet detection</h3>
+          <p>High-contrast imaging and astrometry of circumstellar environments and planetary-mass candidates.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-My current research focuses on **lunar and planetary science**, especially impact cratering, lunar surface processes, polar geology, planetary remote sensing, and quantitative approaches to understanding planetary surfaces. I am particularly interested in combining geological observations with numerical modeling and computational methods to investigate the physical processes that shape the Moon and other planetary bodies.
+  <figure class="home-collage">
+    <img src="/images/Frount_Page.jpg" alt="A collage featuring cycle touring, campus wildlife, and violin performance">
+    <figcaption>Beyond research: cycling, music, and finding new places to explore.</figcaption>
+  </figure>
 
-I also have a broad research background in **astrophysics**. My previous and ongoing work includes debris disks, high-contrast imaging, exoplanet detection, massive stars, and multi-wavelength astronomical data analysis. Across both planetary science and astrophysics, I am especially interested in problems that connect observations with quantitative modeling and computation.
-
-## Research Interests
-
-### Planetary Science
-
-- Lunar science
-- Impact cratering and surface processes
-- Lunar polar geology
-- Planetary remote sensing
-- Numerical modeling and quantitative planetary science
-
-### Astrophysics
-
-- Debris disks and circumstellar environments
-- High-contrast imaging
-- Exoplanet detection and characterization
-- Multi-wavelength observations
-- Stellar populations and massive stars
-
-[Learn more about my research](/Research/)
-
-## About Me
-
-I am originally from Beijing, China. Before starting my Ph.D. at HKU, I completed my undergraduate studies at the **University of Michigan–Ann Arbor**, where I studied **Astronomy and Astrophysics, Earth and Environmental Sciences, and Interdisciplinary Physics**.
-
-My research experience has taken me across both astronomy and planetary science, from analyzing JWST and ALMA observations of circumstellar disks to studying stellar populations and high-contrast imaging, and now to investigating the geology and physical evolution of the Moon. This broad background has shaped my interest in using computational and quantitative methods across different areas of planetary and astrophysical science.
-
-Outside research, I enjoy playing the violin, cycling, and exploring new places.
+  <section class="home-section home-section--last" aria-labelledby="background-title">
+    <div class="home-section__label">
+      <p class="site-eyebrow">Background</p>
+      <h2 id="background-title">Across disciplines</h2>
+    </div>
+    <div class="home-section__body">
+      <p>I completed my undergraduate studies at the <strong>University of Michigan–Ann Arbor</strong>, with training in astronomy and astrophysics, Earth and environmental sciences, and interdisciplinary physics. Research experiences at Michigan and Caltech introduced me to stellar populations, high-contrast imaging, and multi-wavelength disk modeling before I turned my main focus toward lunar science.</p>
+      <p>Outside research, I play the violin, cycle, and enjoy exploring new places.</p>
+      <p class="home-text-link"><a href="/talks/">Selected talks and public outreach <span aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+</div>
