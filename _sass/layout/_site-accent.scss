@@ -255,6 +255,73 @@ html:not([data-theme="dark"]) .page__footer {
   border-bottom: 1px solid var(--line);
 }
 
+.lunar-feature {
+  position: relative;
+  min-height: 23rem;
+  margin: 4.7rem 0 0;
+  overflow: hidden;
+  color: #dce3e7;
+  background: #17242d;
+}
+
+.lunar-feature::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgba(10, 20, 27, 0.08) 0%, rgba(10, 20, 27, 0.18) 42%, rgba(13, 25, 33, 0.94) 72%, #0f1e27 100%);
+}
+
+.lunar-feature img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lunar-feature__copy {
+  position: relative;
+  z-index: 2;
+  width: 40%;
+  margin-left: auto;
+  padding: 3rem 2.7rem 2.5rem;
+}
+
+.lunar-feature__copy .site-eyebrow {
+  color: #d9a17f;
+}
+
+.lunar-feature__copy h2 {
+  margin: 0 0 1.3rem;
+  padding: 0;
+  border: 0;
+  color: #f3f5f6;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.lunar-feature__description {
+  margin: 0;
+  color: #c5cfd5;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.lunar-feature__credit {
+  margin-top: 1.7rem !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.67rem !important;
+  letter-spacing: 0.035em;
+}
+
+.lunar-feature__credit a {
+  color: #9eb2bf !important;
+  text-decoration: none;
+}
+
 .home-section__label h2 {
   margin: 0;
   padding: 0;
@@ -311,9 +378,10 @@ html:not([data-theme="dark"]) .page__footer {
 .home-collage img {
   display: block;
   width: 100%;
-  max-height: 34rem;
+  height: auto;
+  max-height: none;
   border-radius: 2px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .home-section--last {
@@ -402,6 +470,15 @@ html:not([data-theme="dark"]) .page__footer {
   line-height: 2;
 }
 
+.zh-pullquote {
+  margin: 2.1rem 0 0 !important;
+  padding: 1.35rem 0 1.35rem 1.5rem;
+  border-left: 2px solid #a55735;
+  color: #405765;
+  font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+  font-size: 1.15rem !important;
+}
+
 /* Bring Talks into the same visual system without changing its content model. */
 .page__content .talks-intro {
   color: #53606a;
@@ -475,6 +552,10 @@ html[data-theme="dark"] .zh-hero__note {
   color: #a7b0b6;
 }
 
+html[data-theme="dark"] .zh-pullquote {
+  color: #c7d1d6;
+}
+
 html[data-theme="dark"] .site-button {
   border-color: #697680;
   color: #eef2f3 !important;
@@ -503,6 +584,29 @@ html[data-theme="dark"] .site-button--primary {
   .home-section,
   .zh-section {
     gap: 3rem;
+  }
+
+  .lunar-feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 0;
+    margin-top: 3.25rem;
+  }
+
+  .lunar-feature::after {
+    display: none;
+  }
+
+  .lunar-feature img {
+    position: relative;
+    height: auto;
+    aspect-ratio: 1024 / 345;
+  }
+
+  .lunar-feature__copy {
+    width: auto;
+    margin-left: 0;
+    padding: 2rem 1.5rem 2.25rem;
   }
 }
 
