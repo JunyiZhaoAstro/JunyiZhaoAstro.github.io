@@ -1,19 +1,191 @@
 ---
 layout: archive
-title: "Selected Talks and presentations"
+title: "Selected Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
-Giving research and outreach talks is important for sharing results, getting feedback, and building collaborations. I’ve always enjoyed presenting my work. Conferences help improve research and connect people. Outreach helps share science with the public and inspires future scientists.
-Below are my presentations—feel free to email me at junyzhao@umich.edu if you have any questions.
 
+<p class="talks-intro">I present research in planetary science and astrophysics through talks, posters, and public outreach. These selected presentations span lunar exploration, circumstellar disks, high-contrast imaging, and massive-star populations. For questions or collaboration, contact me at <a href="mailto:u3014801@connect.hku.hk">u3014801@connect.hku.hk</a>.</p>
 
-{% if site.talkmap_link == true %}
+<style>
+.talks-intro {
+  max-width: 52rem;
+  margin-bottom: 2.25rem;
+}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+.talks-section {
+  margin-top: 2.75rem;
+}
 
-{% endif %}
+.talks-section__heading {
+  margin-bottom: 0.35rem;
+}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+.talks-section__description {
+  margin: 0 0 1.25rem;
+  color: #6f777d;
+}
+
+.talk-card {
+  display: grid;
+  grid-template-columns: minmax(160px, 210px) minmax(0, 1fr);
+  gap: 1.25rem;
+  margin: 1rem 0;
+  padding: 1.15rem;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  background: rgba(127, 127, 127, 0.05);
+}
+
+.talk-card__media {
+  align-self: start;
+}
+
+.talk-card__image,
+.talk-card__placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+}
+
+.talk-card__image {
+  object-fit: cover;
+}
+
+.talk-card__placeholder {
+  box-sizing: border-box;
+  padding: 1rem;
+  align-content: end;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background:
+    radial-gradient(circle at 22% 28%, rgba(255, 255, 255, 0.9) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 82% 64%, rgba(255, 255, 255, 0.8) 0 1.5px, transparent 2.5px),
+    linear-gradient(145deg, #071426, #193a5a 58%, #67485f);
+}
+
+.talk-card__type {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: #6f777d;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.talk-card__title {
+  margin: 0 0 0.45rem;
+  font-size: 1.2em;
+  line-height: 1.25;
+}
+
+.talk-card__meta {
+  margin: 0 0 0.75rem;
+  color: #6f777d;
+  font-size: 0.88em;
+  line-height: 1.45;
+}
+
+.talk-card__summary {
+  margin: 0 0 0.9rem;
+}
+
+.talk-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+}
+
+.talk-card__button {
+  display: inline-block;
+  padding: 0.38rem 0.72rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.talk-card__button--secondary {
+  border-color: rgba(127, 127, 127, 0.45);
+}
+
+@media (max-width: 700px) {
+  .talk-card {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-card__media {
+    max-width: 24rem;
+  }
+}
+</style>
+
+{% assign research_talks = site.talks | where: "category", "research" | sort: "date" | reverse %}
+<section class="talks-section" aria-labelledby="research-presentations">
+  <h2 id="research-presentations" class="talks-section__heading">Research Presentations &amp; Posters</h2>
+  <p class="talks-section__description">Selected presentations of my work in astrophysics and planetary science.</p>
+
+  {% for post in research_talks %}
+    <article class="talk-card">
+      <div class="talk-card__media">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.image %}
+            <img class="talk-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }} presentation artwork" loading="lazy">
+          {% else %}
+            <span class="talk-card__placeholder">Research Presentation</span>
+          {% endif %}
+        </a>
+      </div>
+      <div class="talk-card__content">
+        <span class="talk-card__type">{{ post.type }}</span>
+        <h3 class="talk-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="talk-card__meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.venue }} · {{ post.location }}</p>
+        <p class="talk-card__summary">{{ post.summary }}</p>
+        <p class="talk-card__actions">
+          <a class="talk-card__button" href="{{ post.url | relative_url }}">Details</a>
+          {% if post.resource_url %}
+            <a class="talk-card__button talk-card__button--secondary" href="{{ post.resource_url }}" target="_blank" rel="noopener">{{ post.resource_label }}</a>
+          {% endif %}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+{% assign outreach_talks = site.talks | where: "category", "outreach" | sort: "date" | reverse %}
+<section class="talks-section" aria-labelledby="public-outreach">
+  <h2 id="public-outreach" class="talks-section__heading">Public Outreach</h2>
+  <p class="talks-section__description">Public-facing talks that connect lunar exploration and observational astronomy with broader audiences.</p>
+
+  {% for post in outreach_talks %}
+    <article class="talk-card">
+      <div class="talk-card__media">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.image %}
+            <img class="talk-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }} presentation artwork" loading="lazy">
+          {% else %}
+            <span class="talk-card__placeholder">The Night Sky</span>
+          {% endif %}
+        </a>
+      </div>
+      <div class="talk-card__content">
+        <span class="talk-card__type">{{ post.type }}</span>
+        <h3 class="talk-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="talk-card__meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.venue }} · {{ post.location }}</p>
+        <p class="talk-card__summary">{{ post.summary }}</p>
+        <p class="talk-card__actions">
+          <a class="talk-card__button" href="{{ post.url | relative_url }}">Details</a>
+          {% if post.resource_url %}
+            <a class="talk-card__button talk-card__button--secondary" href="{{ post.resource_url }}" target="_blank" rel="noopener">{{ post.resource_label }}</a>
+          {% endif %}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</section>
