@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Hey there, I am Junyi
+<figure style="margin: 0 0 2rem;">
+  <img src="/images/Frount_Page.jpg" alt="A collage featuring cycle touring, campus wildlife, and violin performance" style="display: block; width: 100%; max-width: 760px; height: auto; margin: 0 auto; border-radius: 10px;">
+</figure>
 
 Welcome! I am **Junyi Zhao**, a Ph.D. student in **Earth and Planetary Sciences at The University of Hong Kong**, working with **Dr. Yuqi Qian**.
 
