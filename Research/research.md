@@ -19,6 +19,11 @@ My current work is centered on **lunar science**, while I remain actively involv
 **Advisor:** Dr. Yuqi Qian, The University of Hong Kong  
 **2026 – Present**
 
+<figure style="margin: 1rem 0 1.5rem;">
+  <img src="/images/research-lunar-crater-topography.svg" alt="Conceptual view of lunar south-polar crater morphology with a topographic analysis overlay" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of lunar south-polar crater morphology and topographic analysis; not observational data.</figcaption>
+</figure>
+
 My Ph.D. research focuses on the geology and physical evolution of the Moon, with particular interest in **impact cratering, lunar polar environments, surface morphology, and quantitative planetary geomorphology**.
 
 My first project is being developed around the **Chang’e-7 candidate landing region near the lunar south pole**. I am interested in using crater morphology and topography to extract quantitative information about surface evolution and local geologic processes, rather than treating crater shape only as a descriptive geologic feature. A major goal is to connect remote-sensing observations with **numerical calculations and impact-process modeling**, allowing observed morphology to be interpreted in a more physical framework.
@@ -37,6 +42,11 @@ This work is currently under development as I begin my Ph.D. at HKU.
 ## Grain-Size-Dependent Structure of the AU Microscopii Debris Disk
 **Advisor:** [Dr. Yinuo Han](https://yinuohan.github.io/)  
 **2025 – Present**
+
+<figure style="margin: 1rem 0 1.5rem;">
+  <img src="/images/research-au-mic-multiwavelength.svg" alt="Conceptual edge-on view of the AU Microscopii debris disk combining scattered-light and millimeter-grain structure" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of joint JWST and ALMA modeling of the AU Microscopii debris disk; not observational data.</figcaption>
+</figure>
 
 Debris disks provide a direct view of the small-body populations left behind after planet formation. Because grains of different sizes respond differently to radiation, stellar winds, collisions, and gravity, comparing the same disk at different wavelengths provides a way to probe the underlying disk dynamics.
 
@@ -63,6 +73,11 @@ The broader aim is to understand how grain-size-dependent forces shape debris di
 **Advisor:** [Prof. Michael Meyer](https://sites.lsa.umich.edu/feps/)  
 **University of Michigan · 2024**
 
+<figure style="margin: 1rem 0 1.5rem;">
+  <img src="/images/research-mwc-758-high-contrast.svg" alt="Conceptual high-contrast view of the structured MWC 758 disk behind a coronagraphic mask" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of high-contrast imaging of MWC 758 and a companion search; not observational data.</figcaption>
+</figure>
+
 MWC 758 is a young Herbig Ae star surrounded by a highly structured protoplanetary disk and has been proposed to host an embedded protoplanet, MWC 758c. I analyzed **JWST/NIRCam F200W high-contrast imaging** to search for the candidate companion and to characterize the sensitivity of the observations.
 
 I implemented and compared several PSF-subtraction strategies, including PCA-based angular differential imaging, PCA using reference orientations, roll subtraction, and reference differential imaging. We did **not detect MWC 758c** at its predicted separation in the F200W data. The analysis instead provided quantitative contrast limits on a potential companion and demonstrated the importance of PSF treatment when working close to bright, structured circumstellar disks.
@@ -78,6 +93,11 @@ This project introduced me to high-contrast imaging with JWST and motivated my c
 ## Identification and Kinematics of OBe Stars in the Large Magellanic Cloud
 **Advisor:** [Prof. Sally Oey](https://sites.lsa.umich.edu/msoey/)  
 **University of Michigan · 2023 – 2024**
+
+<figure style="margin: 1rem 0 1.5rem;">
+  <img src="/images/research-obe-lmc-kinematics.svg" alt="Conceptual survey view of OBe-star selection and proper-motion analysis in the Large Magellanic Cloud" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of OBe-star candidate selection and transverse-motion analysis in the Large Magellanic Cloud; not observational data.</figcaption>
+</figure>
 
 O- and B-type emission-line stars are important tracers of massive-star evolution, binarity, and stellar feedback. In this project, I investigated both their **photometric identification** and their **kinematics in the Large Magellanic Cloud (LMC)**.
 
