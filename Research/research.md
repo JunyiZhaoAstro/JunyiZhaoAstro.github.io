@@ -3,92 +3,105 @@ layout: archive
 title: "Research"
 permalink: /Research/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-# Welcome to My Research Website! 
+# Research
 
-During my undergraduate studies, I worked on a diverse set of research projects—from searching for giant, mysterious emission-line stars to recovering debris-disk parameters with joint modeling though multiple wavelengths. I’ve handled data from facilities including [JWST/NIRCam](https://jwst-docs.stsci.edu/jwst-near-infrared-camera#gsc.tab=0), [ALMA](https://www.almaobservatory.org/en/home/), the [CHARA Array](https://www.chara.gsu.edu/public/tour-overview), [and CTIO’s Curtis/Schmidt Telescope](https://noirlab.edu/public/programs/ctio/curtis-schmidt-telescope/).
+My research spans **planetary science and astrophysics**, with a common emphasis on extracting physical information from complex observational data. I am particularly interested in combining remote sensing, image analysis, statistical inference, and numerical modeling to understand how planetary surfaces and circumstellar systems form and evolve.
 
-The discovery and characterization of alien worlds have always captivated me: from the structure of gas in protoplanetary disks, to the atmospheric composition of super-Earths, to detecting exoplanets from their faintest signals. I’m eager to explore entire exosystems across the full electromagnetic spectrum, seeking to understand how multiple components within the alien worlds (host star, gas, planets and their atmospheres) interact and shape each other. To me, probing these distant worlds is not only an exhilarating scientific journey but also a way to understand our place in the cosmos and tackle the biggest questions: Are we alone? How did planetary systems like our own assemble and evolve?
+My current work is centered on **lunar science**, while I remain actively involved in astrophysical research using facilities including **JWST** and **ALMA**.
 
-Below are the details of my research projects, if you are interested, please don't hesitate to email me at **junyzhao@umich.edu**.  I would love to chat!
+---
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+# Current Research
 
-# Constraining Grain-Size-Dependent Dynamics in AU Mic’s Debris Disk
-## Advisor: [Dr.Yinuo Han](https://yinuohan.github.io/)
-## 06/2025 - Now
+## Lunar Impact Cratering and Surface Processes
+**Advisor:** Dr. Yuqi Qian, The University of Hong Kong  
+**2026 – Present**
 
-Project under development
+My Ph.D. research focuses on the geology and physical evolution of the Moon, with particular interest in **impact cratering, lunar polar environments, surface morphology, and quantitative planetary geomorphology**.
 
-<p>&nbsp;</p>
+My first project is being developed around the **Chang’e-7 candidate landing region near the lunar south pole**. I am interested in using crater morphology and topography to extract quantitative information about surface evolution and local geologic processes, rather than treating crater shape only as a descriptive geologic feature. A major goal is to connect remote-sensing observations with **numerical calculations and impact-process modeling**, allowing observed morphology to be interpreted in a more physical framework.
 
-# **Identification and Kinematics of OBe stars in the LMC**
-## Advisor: [Prof.Sally Oey](https://sites.lsa.umich.edu/msoey/)
-## 02/2023 - 05/2024
+More broadly, I am interested in questions such as:
 
+- How do impact craters record the physical properties and modification history of the lunar surface?
+- How can crater morphology and morphometry be used to characterize poorly illuminated polar terrain?
+- What can topography, illumination, thermal environment, and remote-sensing data jointly tell us about lunar polar geology?
+- How can numerical modeling be used to move from morphological description toward physically testable interpretations?
 
-In our research, we tested the traditional approach of identifying OBe star candidates by using Hα-continuum subtracted images. Specifically, we compared the candidates detected through this method in the Large Magellanic Cloud (LMC) with known OBe stars listed in an established catalog. To do this, we extracted star-shaped objects from the Hα-continuum subtracted images and then evaluated how this group matched up with the cataloged OBe stars in the same region of the LMC. we find that this method results in false positives and is thus insufficient in identifying OBe stars.
-We also measure the proper motions of OBe stars within the LMC using data from Gaia DR3. We then combine these findings with the proper motion characteristics of OBe stars in the Small Magellanic Cloud (SMC) region. We find that the velocity distributions of OBe stars in the LMC and the SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
+This work is currently under development as I begin my Ph.D. at HKU.
 
-### How to find OBe stars
-![BSS_HR](https://junyizhaoastro.github.io//images/OBe_star.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
-The conventional method of identifying OBe stars results in a high number of false positives because OBe stars are not the only objects that appear on a cont-sub Hα image. Other celestial bodies, such as planetary nebulae and red giants, also appear on these images, leading to misidentification. To address this issue, we analyzed the objects across different spectral bands and discovered that OBe stars typically exhibit a bluer g-r index compared to other objects, as indicated in Fig on the right
+---
+
+## Grain-Size-Dependent Structure of the AU Microscopii Debris Disk
+**Advisor:** [Dr. Yinuo Han](https://yinuohan.github.io/)  
+**2025 – Present**
+
+Debris disks provide a direct view of the small-body populations left behind after planet formation. Because grains of different sizes respond differently to radiation, stellar winds, collisions, and gravity, comparing the same disk at different wavelengths provides a way to probe the underlying disk dynamics.
+
+For the nearby AU Microscopii debris disk, I am leading a **joint multi-wavelength modeling analysis using JWST/NIRCam F444W scattered-light imaging and ALMA Band 6 interferometric observations**. The central goal is to test whether the vertical and radial structure traced by micron-sized grains differs from that traced by millimeter-sized grains.
+
+Rather than fitting the two datasets independently, I developed a framework that models them jointly while sharing the disk geometry. The analysis combines an **image-plane likelihood for JWST** with a **visibility-space likelihood for ALMA**, and uses Bayesian sampling to constrain disk inclination, position angle, scale height, radial structure, scattering properties, and millimeter emission simultaneously.
+
+This project has involved:
+
+- Forward modeling of edge-on debris-disk structure
+- JWST/NIRCam scattered-light image modeling
+- ALMA interferometric visibility modeling in the \(u\)-\(v\) plane
+- Bayesian parameter inference and MCMC
+- Statistical model comparison
+- Physical interpretation of wavelength-dependent disk structure
+
+The broader aim is to understand how grain-size-dependent forces shape debris disks and how those processes differ between low-mass active stars such as AU Mic and more luminous systems.
+
+---
+
+# Previous Astrophysics Research
+
+## Searching for Protoplanets around MWC 758 with JWST/NIRCam
+**Advisor:** [Prof. Michael Meyer](https://sites.lsa.umich.edu/feps/)  
+**University of Michigan · 2024**
+
+MWC 758 is a young Herbig Ae star surrounded by a highly structured protoplanetary disk and has been proposed to host an embedded protoplanet, MWC 758c. I analyzed **JWST/NIRCam F200W high-contrast imaging** to search for the candidate companion and to characterize the sensitivity of the observations.
+
+I implemented and compared several PSF-subtraction strategies, including PCA-based angular differential imaging, PCA using reference orientations, roll subtraction, and reference differential imaging. We did **not detect MWC 758c** at its predicted separation in the F200W data. The analysis instead provided quantitative contrast limits on a potential companion and demonstrated the importance of PSF treatment when working close to bright, structured circumstellar disks.
+
+![JWST/NIRCam MWC 758 analysis](/images/F200W_direct.png){: style="width: 52%; max-width: 600px; height: auto; float: right; margin-left: 24px;"}
+
+This project introduced me to high-contrast imaging with JWST and motivated my continued interest in extracting faint physical signals from strongly structured backgrounds.
 
 <div style="clear: both;"></div>
 
-### The velocity distribution of OBe stars
-![BSS_HR](https://junyizhaoastro.github.io//images/OBe_star_speed.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
-The velocity of OBe stars is a critical area of study since it can reveal probe cluster dynamical evolution, binary population parameters, and stellar evolution. We obtained the velocities of the OBe stars from the Reid & Parker catalog using the Gaia DR3 data. The field transverse velocity of the OBe stars is obtained through the median of the velocity of the stars within a 3-arcsec radius of the OBe stars. We discovered that the velocity distributions of OBe stars in LMC and SMC are very similar. However, the velocity of OBe stars in the LMC is slightly higher than in the SMC. 
+---
+
+## Identification and Kinematics of OBe Stars in the Large Magellanic Cloud
+**Advisor:** [Prof. Sally Oey](https://sites.lsa.umich.edu/msoey/)  
+**University of Michigan · 2023 – 2024**
+
+O- and B-type emission-line stars are important tracers of massive-star evolution, binarity, and stellar feedback. In this project, I investigated both their **photometric identification** and their **kinematics in the Large Magellanic Cloud (LMC)**.
+
+We tested the conventional use of Hα continuum-subtracted imaging to identify OBe-star candidates and found that this approach alone produces substantial contamination from other emission-line and red stellar populations. By incorporating broadband photometry, we showed that color information can significantly improve candidate selection.
+
+![OBe-star identification](/images/OBe_star.png){: style="width: 48%; max-width: 560px; height: auto; float: right; margin-left: 24px;"}
+
+I also used **Gaia DR3 proper motions** to examine the transverse-velocity distribution of cataloged OBe stars in the LMC and compare it with the corresponding population in the Small Magellanic Cloud. This part of the project introduced me to large-catalog analysis, astrometric data, and the use of stellar kinematics as a probe of massive-star evolution.
 
 <div style="clear: both;"></div>
 
+---
 
-<p>&nbsp;</p>
+# Methods & Tools
 
+Across these projects, I have worked with a range of observational and computational techniques. My current methodological interests include:
 
+- **Planetary remote sensing and quantitative geomorphology**
+- **Crater morphology, morphometry, and topographic analysis**
+- **Numerical modeling of planetary surface processes**
+- **JWST/NIRCam image analysis and high-contrast imaging**
+- **ALMA interferometric visibility modeling**
+- **Bayesian inference, MCMC, and statistical model comparison**
+- **Forward modeling and image-plane / visibility-plane likelihoods**
+- **Python-based scientific computing and astronomical data analysis**
 
-# Searching for protoplanets orbiting MWC 758 using JWST/NIRCam
-## Advisor: [Prof.Michael Meyer](https://sites.lsa.umich.edu/feps/)
-## 05/2024 - 08/2024
-
-MWC 758 is a Herbig Ae star surrounded by a protoplanetary disk with a proposed attenuation protoplanet candidate, MWC 758c. We conducted high-contrast imaging observations with JWST/NIRCam in the F200W band, applying four PSF-subtraction techniques: PCA-based angular differential imaging (ADI), PCA with reference angles, roll-subtraction, and reference differential imaging (RDI). None of these methods revealed a companion at the predicted 0.62″ separation. The PCA-ADI contrast curve (PCA = 2) achieves a planet-to-star flux ratio sensitivity of ≲10⁻⁵ at that separation, placing stringent non-detection limits on MWC 758c. 
-
-### Direct imaging results
-![BSS_HR](https://junyizhaoastro.github.io//images/F200W_direct.png){: style="width: 50%; max-width: 550px; height: auto; float: right;"}
-We use JWST/NIRCam filter F200W (centers at 2 microns) and run 4 different methods of PSF subtraction. Principal component analysis (PCA) analyzes the stack of stellar PSFs to pull out their common patterns, builds a PSF“template” from those patterns, and subtracts it so that only non‑stellar signals (like a rotating planet) remain. We can observe the disk structure of the system in the RDI subtraction method. For the results, **We do not detect MWC758c from the JWST/NIRCam F200 band** 
-
-Future work includes calculating contrast for the other methods and analyzing data from the F430 filter. 
-
-
-
-<div style="clear: both;"></div>
-
-
-<p>&nbsp;</p>
-
-
-
-
-
-  
-
-
-
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
-
+I am especially interested in research where observational morphology can be translated into constraints on the underlying **physics** rather than treated only descriptively.
