@@ -29,12 +29,19 @@ redirect_from:
   </section>
 
   <section class="lunar-feature" aria-labelledby="lunar-feature-title">
-    <img src="/images/lunar-south-pole-lola-slope-map.jpg" alt="LOLA slope map of the lunar south pole">
+    <video class="lunar-feature__media" autoplay muted loop playsinline controls preload="metadata" poster="/images/lunar-south-pole-lola-slope-map.jpg">
+      <source src="https://svs.gsfc.nasa.gov/vis/a000000/a004200/a004226/sp_shadow_p30.mp4" type="video/mp4">
+      <a href="https://svs.gsfc.nasa.gov/4226/">View the lunar south-pole illumination animation at NASA SVS.</a>
+    </video>
     <div class="lunar-feature__copy">
-      <p class="site-eyebrow">Current direction</p>
-      <h2 id="lunar-feature-title">Reading the Moon through its surface</h2>
-      <p class="lunar-feature__description">Crater morphology, polar terrain, and remote-sensing data preserve a record of the processes that have shaped the lunar surface. My Ph.D. work asks how we can turn that record into quantitative geological constraints.</p>
-      <p class="lunar-feature__credit"><a href="https://svs.gsfc.nasa.gov/4226/">LRO/LOLA slope map · NASA/GSFC/MIT/SVS</a></p>
+      <div>
+        <p class="site-eyebrow">Current direction</p>
+        <h2 id="lunar-feature-title">Reading the Moon through its surface</h2>
+      </div>
+      <div>
+        <p class="lunar-feature__description">Crater morphology, polar terrain, and remote-sensing data preserve a record of the processes that have shaped the lunar surface. My Ph.D. work asks how we can turn that record into quantitative geological constraints.</p>
+        <p class="lunar-feature__credit"><a href="https://svs.gsfc.nasa.gov/4226/">Lunar south-pole illumination · NASA/GSFC/MIT/SVS</a></p>
+      </div>
     </div>
   </section>
 
