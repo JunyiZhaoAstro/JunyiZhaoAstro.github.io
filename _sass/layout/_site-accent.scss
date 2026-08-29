@@ -1,124 +1,582 @@
 /* ==========================================================================
-   SITE ATMOSPHERE
-   A restrained lunar-and-night-sky background for the light theme.
+   EDITORIAL ACADEMIC THEME
+   Warm paper, strong type hierarchy, real imagery, and restrained details.
    ========================================================================== */
 
 html:not([data-theme="dark"]) body {
-  background-color: #eaf1f7;
-  background-image:
-    radial-gradient(circle at 87% 14%, rgba(255, 255, 255, 0.7) 0 10rem, rgba(99, 124, 153, 0.13) 10.15rem 10.32rem, transparent 10.55rem),
-    radial-gradient(circle at 18% 26%, rgba(35, 70, 112, 0.1) 0 1px, transparent 1.45px),
-    radial-gradient(circle at 66% 72%, rgba(35, 70, 112, 0.075) 0 1px, transparent 1.4px),
-    radial-gradient(ellipse at 20% 95%, rgba(124, 148, 174, 0.2), transparent 45%),
-    linear-gradient(145deg, #f5f8fb 0%, #e4edf5 58%, #f0f4f8 100%);
-  background-size: auto, 142px 142px, 191px 191px, auto, auto;
-  background-attachment: fixed;
+  color: #24323d;
+  background: #f5f2ec;
 }
 
-html:not([data-theme="dark"]) #main {
-  padding-top: 1.35rem;
-  padding-bottom: 2.25rem;
-  border: 1px solid rgba(64, 91, 122, 0.12);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: 0 18px 55px rgba(40, 62, 88, 0.1);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+html:not([data-theme="dark"]) a {
+  color: #275e78;
+}
+
+html:not([data-theme="dark"]) a:hover {
+  color: #173f54;
 }
 
 html:not([data-theme="dark"]) .masthead {
-  background: rgba(248, 251, 254, 0.92);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #d8d3c9;
+  background: rgba(245, 242, 236, 0.97);
+  box-shadow: none;
 }
 
+html:not([data-theme="dark"]) .greedy-nav,
 html:not([data-theme="dark"]) .masthead__menu-item {
-  background-color: transparent;
+  background: transparent;
 }
 
-@media (max-width: 700px) {
-  html:not([data-theme="dark"]) #main {
-    margin-top: 1rem;
-    border-right: 0;
-    border-left: 0;
-    border-radius: 0;
-    box-shadow: 0 12px 32px rgba(40, 62, 88, 0.08);
+html:not([data-theme="dark"]) .greedy-nav a,
+html:not([data-theme="dark"]) .masthead__menu-item a {
+  color: #24323d;
+}
+
+html:not([data-theme="dark"]) .greedy-nav .visible-links a::before {
+  height: 2px;
+  background: #b56d46;
+}
+
+html:not([data-theme="dark"]) .page__footer {
+  border-top: 1px solid #d8d3c9;
+  background: #ebe7df;
+}
+
+#main {
+  padding-top: 3.25rem;
+  padding-bottom: 5rem;
+  background: transparent;
+}
+
+.page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.author__name {
+  color: #172936;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.page__title {
+  margin-bottom: 1.65rem;
+  font-size: 2.45rem;
+  line-height: 1.1;
+}
+
+.page__content {
+  color: #2d3b45;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.page__content p,
+.page__content li {
+  max-width: 46rem;
+}
+
+.page__content h2 {
+  margin-top: 2.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #d8d3c9;
+  font-size: 1.65rem;
+}
+
+.page__content h3 {
+  margin-top: 1.9rem;
+  font-size: 1.18rem;
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.author__avatar img {
+  border: 1px solid #d5cfc4;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.author__content {
+  margin-top: 0.85rem;
+}
+
+.author__name {
+  font-size: 1.22rem;
+}
+
+.author__bio,
+.author__urls-wrapper {
+  color: #53606a;
+}
+
+.author__urls a {
+  color: #40515e;
+}
+
+/* Wide editorial pages */
+@media (min-width: 64em) {
+  #main:has(.home-page) .page,
+  #main:has(.zh-page) .page {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  #main:has(.home-page) .page__inner-wrap,
+  #main:has(.zh-page) .page__inner-wrap {
+    width: 100%;
+  }
+}
+
+.home-page,
+.zh-page {
+  --ink: #172936;
+  --muted: #68737b;
+  --line: #d8d3c9;
+  --accent: #a55735;
+  color: #2d3b45;
+}
+
+.site-eyebrow {
+  margin: 0 0 1rem;
+  color: #a55735;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 300px);
+  gap: 4.5rem;
+  align-items: center;
+  min-height: 31rem;
+  padding: 1.5rem 0 4.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-title {
+  max-width: none !important;
+  margin: 0 0 1.35rem !important;
+  color: var(--ink) !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 4.6rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.055em !important;
+  line-height: 0.98 !important;
+}
+
+.home-lede {
+  max-width: 42rem !important;
+  margin: 0 0 1.4rem;
+  color: #273b49;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  line-height: 1.45;
+}
+
+.home-intro {
+  max-width: 40rem !important;
+  margin: 0;
+  color: #53606a;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.home-portrait {
+  margin: 0;
+}
+
+.home-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border: 1px solid #d0c9bd;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.home-portrait figcaption,
+.home-collage figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.035em;
+  line-height: 1.5;
+}
+
+.site-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+.site-button {
+  display: inline-block;
+  padding: 0.62rem 0.9rem;
+  border: 1px solid #aab0b2;
+  border-radius: 2px;
+  color: #24323d !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  line-height: 1;
+  text-decoration: none !important;
+  transition: border-color 150ms ease, background 150ms ease, color 150ms ease;
+}
+
+.site-button:hover {
+  border-color: #275e78;
+  background: #ebe8e1;
+}
+
+.site-button--primary {
+  border-color: var(--ink);
+  color: #f8f6f1 !important;
+  background: var(--ink);
+}
+
+.site-button--primary:hover {
+  border-color: #275e78;
+  color: #fff !important;
+  background: #275e78;
+}
+
+.home-section {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+  gap: 4.5rem;
+  padding: 4.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-section__label h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.home-section__lead {
+  max-width: 48rem !important;
+  margin: 0 0 2.5rem;
+  color: #394b57;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  line-height: 1.55;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.focus-item {
+  padding-top: 1rem;
+  border-top: 2px solid #334c5d;
+}
+
+.focus-item__number {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.focus-item h3 {
+  margin: 0.75rem 0 0.65rem;
+  color: var(--ink);
+  font-size: 1.12rem;
+}
+
+.focus-item p {
+  margin: 0;
+  color: #59656d;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.home-collage {
+  margin: 4.7rem 0;
+}
+
+.home-collage img {
+  display: block;
+  width: 100%;
+  max-height: 34rem;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.home-section--last {
+  padding-top: 0;
+  border-bottom: 0;
+}
+
+.home-section__body > p:first-child {
+  margin-top: 0;
+}
+
+.home-text-link {
+  margin-top: 1.8rem;
+  font-weight: 700;
+}
+
+.home-text-link a {
+  text-decoration: none;
+}
+
+/* Chinese introduction */
+.zh-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 4rem;
+  align-items: end;
+  padding: 2rem 0 4.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.zh-hero h1 {
+  margin: 0 0 1.25rem;
+  color: var(--ink);
+  font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+  font-size: 4.2rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+}
+
+.zh-lede {
+  max-width: 43rem !important;
+  margin: 0;
+  color: #354a58;
+  font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+  font-size: 1.42rem;
+  line-height: 1.75;
+}
+
+.zh-hero__note {
+  margin: 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid #a55735;
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  line-height: 1.7;
+}
+
+.zh-section {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+  gap: 4.5rem;
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.zh-section:last-child {
+  border-bottom: 0;
+}
+
+.zh-section h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.zh-section p {
+  max-width: 45rem;
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Bring Talks into the same visual system without changing its content model. */
+.page__content .talks-intro {
+  color: #53606a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.page__content .talk-card {
+  gap: 1.5rem;
+  padding: 1.35rem 0;
+  border: 0;
+  border-top: 1px solid #d8d3c9;
+  border-radius: 0;
+  background: transparent;
+}
+
+.page__content .talk-card__image,
+.page__content .talk-card__placeholder {
+  border-radius: 2px;
+}
+
+.page__content .talk-card__type,
+.page__content .talk-card__meta,
+.page__content .talks-section__description {
+  color: #6b757c;
+}
+
+.page__content .talk-card__button {
+  border-radius: 2px;
+}
+
+/* The optional dark mode remains clean and image-free. */
+html[data-theme="dark"] body {
+  background: #10171d;
+}
+
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .page__footer {
+  border-color: #34414b;
+  background: #10171d;
+}
+
+html[data-theme="dark"] #main {
+  background: transparent;
+}
+
+html[data-theme="dark"] .home-page,
+html[data-theme="dark"] .zh-page {
+  --ink: #eef2f3;
+  --muted: #a7b0b6;
+  --line: #34414b;
+  --accent: #d7956f;
+  color: #d4dade;
+}
+
+html[data-theme="dark"] .home-title,
+html[data-theme="dark"] .home-lede,
+html[data-theme="dark"] .home-section__lead,
+html[data-theme="dark"] .home-section__label h2,
+html[data-theme="dark"] .focus-item h3,
+html[data-theme="dark"] .zh-hero h1,
+html[data-theme="dark"] .zh-lede,
+html[data-theme="dark"] .zh-section h2 {
+  color: #eef2f3 !important;
+}
+
+html[data-theme="dark"] .home-intro,
+html[data-theme="dark"] .focus-item p,
+html[data-theme="dark"] .zh-hero__note {
+  color: #a7b0b6;
+}
+
+html[data-theme="dark"] .site-button {
+  border-color: #697680;
+  color: #eef2f3 !important;
+}
+
+html[data-theme="dark"] .site-button--primary {
+  border-color: #eef2f3;
+  color: #10171d !important;
+  background: #eef2f3;
+}
+
+@media (max-width: 64em) {
+  #main {
+    padding-top: 2.4rem;
+  }
+
+  .home-hero {
+    grid-template-columns: minmax(0, 1fr) minmax(210px, 260px);
+    gap: 3rem;
+  }
+
+  .home-title {
+    font-size: 3.9rem !important;
+  }
+
+  .home-section,
+  .zh-section {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 48em) {
+  #main {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 1rem 0 3.25rem;
+  }
+
+  .home-hero__copy {
+    order: 1;
+  }
+
+  .home-portrait {
+    order: 2;
+    max-width: 17rem;
+  }
+
+  .home-title {
+    font-size: 3.25rem !important;
+  }
+
+  .home-lede {
+    font-size: 1.28rem;
+  }
+
+  .home-section,
+  .zh-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 3.25rem 0;
+  }
+
+  .focus-grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .home-collage {
+    margin: 3.25rem 0;
+  }
+
+  .zh-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 0 3.25rem;
+  }
+
+  .zh-hero h1 {
+    font-size: 3.1rem;
+  }
+
+  .zh-lede {
+    font-size: 1.2rem;
+  }
+
+  .zh-hero__note {
+    max-width: 14rem;
   }
 }
 
 @media print {
-  html:not([data-theme="dark"]) body,
-  html:not([data-theme="dark"]) #main {
-    border: 0;
-    background: #fff;
-    box-shadow: none;
+  body,
+  #main {
+    background: #fff !important;
   }
-}
 
-/* Dark lunar theme: the default presentation, with the light theme still available. */
-html[data-theme="dark"] body {
-  background-color: #050b13;
-  background-image:
-    radial-gradient(circle at 82% 9%, rgba(5, 10, 18, 0.22) 0 1.6rem, transparent 1.75rem),
-    radial-gradient(circle at 90% 17%, rgba(5, 10, 18, 0.18) 0 2.2rem, transparent 2.35rem),
-    radial-gradient(circle at 84% 22%, rgba(5, 10, 18, 0.15) 0 1.2rem, transparent 1.35rem),
-    radial-gradient(circle at 86% 14%, rgba(197, 209, 220, 0.16) 0 11rem, rgba(133, 151, 170, 0.1) 11.15rem 11.35rem, transparent 11.65rem),
-    radial-gradient(circle at 14% 29%, rgba(205, 223, 239, 0.16) 0 1px, transparent 1.4px),
-    radial-gradient(circle at 62% 70%, rgba(205, 223, 239, 0.11) 0 1px, transparent 1.35px),
-    linear-gradient(150deg, #050a12 0%, #091523 48%, #102234 100%);
-  background-size: auto, auto, auto, auto, 151px 151px, 211px 211px, auto;
-  background-attachment: fixed;
-}
-
-html[data-theme="dark"] #main {
-  padding-top: 1.35rem;
-  padding-bottom: 2.25rem;
-  border: 1px solid rgba(183, 203, 221, 0.13);
-  border-radius: 18px;
-  background: rgba(7, 15, 26, 0.76);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
-  -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
-}
-
-html[data-theme="dark"] .masthead {
-  background: rgba(4, 10, 18, 0.92);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-}
-
-html[data-theme="dark"] .masthead__menu-item {
-  background-color: transparent;
-}
-
-html[data-theme="dark"] .page__footer {
-  border-top: 1px solid rgba(183, 203, 221, 0.12);
-  background: rgba(4, 10, 18, 0.96);
-}
-
-html[data-theme="dark"] .talk-card {
-  border-color: rgba(183, 203, 221, 0.15);
-  background: rgba(19, 34, 52, 0.7);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
-}
-
-html[data-theme="dark"] .talk-card__type,
-html[data-theme="dark"] .talk-card__meta,
-html[data-theme="dark"] .talks-section__description {
-  color: #aebdca;
-}
-
-html[data-theme="dark"] .author__avatar img {
-  border: 1px solid rgba(203, 219, 232, 0.2);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 700px) {
-  html[data-theme="dark"] #main {
-    margin-top: 1rem;
-    border-right: 0;
-    border-left: 0;
-    border-radius: 0;
-    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.3);
+  .site-actions {
+    display: none;
   }
 }

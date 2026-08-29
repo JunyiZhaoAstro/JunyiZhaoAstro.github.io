@@ -1,6 +1,6 @@
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dark"
+site_theme               : "default"
 title                    : "Junyi Zhao"
 title_separator          : "-"
 name                     : &name "Junyi Zhao"
@@ -17,7 +17,7 @@ author:
   bio              : "Ph.D. Student | Lunar & Planetary Science"
   location         : "Hong Kong SAR"
   employer         : "The University of Hong Kong"
-  email            : "u3014801@connect.hku.hk"
+  email            : "junyi.zhao@connect.hku.hk"
   orcid            : "https://orcid.org/0009-0007-8418-5477"
   github           : "JunyiZhaoAstro"
   linkedin         : "junyi-zhao-5a7131331"
