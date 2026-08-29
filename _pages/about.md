@@ -28,6 +28,16 @@ redirect_from:
     </figure>
   </section>
 
+  <section class="lunar-feature" aria-labelledby="lunar-feature-title">
+    <img src="/images/lunar-south-pole-lola-slope-map.jpg" alt="LOLA slope map of the lunar south pole">
+    <div class="lunar-feature__copy">
+      <p class="site-eyebrow">Current direction</p>
+      <h2 id="lunar-feature-title">Reading the Moon through its surface</h2>
+      <p class="lunar-feature__description">Crater morphology, polar terrain, and remote-sensing data preserve a record of the processes that have shaped the lunar surface. My Ph.D. work asks how we can turn that record into quantitative geological constraints.</p>
+      <p class="lunar-feature__credit"><a href="https://svs.gsfc.nasa.gov/4226/">LRO/LOLA slope map · NASA/GSFC/MIT/SVS</a></p>
+    </div>
+  </section>
+
   <section class="home-section" aria-labelledby="research-focus">
     <div class="home-section__label">
       <p class="site-eyebrow">Research</p>
@@ -63,7 +73,7 @@ redirect_from:
   <section class="home-section home-section--last" aria-labelledby="background-title">
     <div class="home-section__label">
       <p class="site-eyebrow">Background</p>
-      <h2 id="background-title">Across disciplines</h2>
+      <h2 id="background-title">From astronomy to lunar science</h2>
     </div>
     <div class="home-section__body">
       <p>I completed my undergraduate studies at the <strong>University of Michigan–Ann Arbor</strong>, with training in astronomy and astrophysics, Earth and environmental sciences, and interdisciplinary physics. Research experiences at Michigan and Caltech introduced me to stellar populations, high-contrast imaging, and multi-wavelength disk modeling before I turned my main focus toward lunar science.</p>
