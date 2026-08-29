@@ -20,7 +20,7 @@ My current work is centered on **lunar science**, while I remain actively involv
 **2026 – Present**
 
 <figure style="margin: 1rem 0 1.5rem;">
-  <img src="/images/research-lunar-crater-topography.svg" alt="Conceptual view of lunar south-polar crater morphology with a topographic analysis overlay" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="/images/research-lunar-crater-topography.jpg" alt="Conceptual view of lunar south-polar crater morphology with a topographic analysis overlay" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of lunar south-polar crater morphology and topographic analysis; not observational data.</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ This work is currently under development as I begin my Ph.D. at HKU.
 **2025 – Present**
 
 <figure style="margin: 1rem 0 1.5rem;">
-  <img src="/images/research-au-mic-multiwavelength.svg" alt="Conceptual edge-on view of the AU Microscopii debris disk combining scattered-light and millimeter-grain structure" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="/images/research-au-mic-multiwavelength.jpg" alt="Conceptual edge-on view of the AU Microscopii debris disk combining scattered-light and millimeter-grain structure" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of joint JWST and ALMA modeling of the AU Microscopii debris disk; not observational data.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ The broader aim is to understand how grain-size-dependent forces shape debris di
 **University of Michigan · 2024**
 
 <figure style="margin: 1rem 0 1.5rem;">
-  <img src="/images/research-mwc-758-high-contrast.svg" alt="Conceptual high-contrast view of the structured MWC 758 disk behind a coronagraphic mask" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="/images/research-mwc-758-high-contrast.jpg" alt="Conceptual high-contrast view of the structured MWC 758 disk behind a coronagraphic mask" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of high-contrast imaging of MWC 758 and a companion search; not observational data.</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ This project introduced me to high-contrast imaging with JWST and motivated my c
 **University of Michigan · 2023 – 2024**
 
 <figure style="margin: 1rem 0 1.5rem;">
-  <img src="/images/research-obe-lmc-kinematics.svg" alt="Conceptual survey view of OBe-star selection and proper-motion analysis in the Large Magellanic Cloud" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="/images/research-obe-lmc-kinematics.jpg" alt="Conceptual survey view of OBe-star selection and proper-motion analysis in the Large Magellanic Cloud" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption style="font-size: 0.85em; color: #6f777d; margin-top: 0.35rem;">Conceptual illustration of OBe-star candidate selection and transverse-motion analysis in the Large Magellanic Cloud; not observational data.</figcaption>
 </figure>
 
